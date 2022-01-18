@@ -33,4 +33,4 @@ More details available in this <a href="https://drive.google.com/file/d/1nktD93b
 * The fine-tune model is available on request OR you can use your own summarization model. 
 * Reddit PRAW's API credentials are hidden in the code files. Get your own Reddit API credentials wherever needed.
 
-> ⚠️  **Remeber to change Reddit API credential varaiables with your own credential values.**
+> ⚠️  **Remeber to change Reddit API credential variables with your own credential values.**
