@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', path='/style.css') }}">
+    <title>Stock News Made Easy</title>
+</head>
+<body>
+  <div class="header" id="myHeader">
+    <h2>CS 613, IIT Gandhinagar </h2>
+  </div>
+  <div id="firstDivistion" class="division">
+    <h1>Stock News Made Easy</h1>
+    <h3>A transformer based summarizer model fine tuned for summarizing stock related text.</h3>
+    <table>
+      <tr>
+        <td width="50%">Ayush Kumar</td>
+        <td width="50%">Jay Shah</td>
+      </tr>
+      <tr>
+        <td width="50%">Dhyey Jani</td>
+        <td width="50%">Devanshu Thakar</td>
+      </tr>
+    </table>
+    <br>
+    <table>
+      <tr>
+        <td width="25%"><i>Mentor</i></td>
+        <td width="25%"><i>Varun Jain</i></td>
+      </tr>
+    </table>
+    <br>
+    <table>
+      <tr>
+        <td width="50%"><b>Instructor</b></td>
+        <td width="50%"><b>Prof. Mayank Singh</b></td>
+      </tr>
+    </table>
+  </div>
+
+  <div id="secondDivistion" class="division">
+    <div class="box">
+      <div class="card">
+        <form action="" method="post">
+          <h1>Scrapper</h1>
+          <p>Keyword</p>
+          <input type="text" class="inputbox" name="keyword"  required/>
+          <p>Number of posts</p>
+          <input type="number" class="inputbox" name="numberOfPosts" id="numberOfPosts" required/>
+          <p><button type="submit" class="button">scrape</button></p>
+        </form>
+      </div>
+    </div>
+  </div> 
+</body>
+</html>

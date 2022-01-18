@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stock News Made Easy</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', path='/style.css') }}">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body class='box'>
+
+<p class="head"><h1 align='center'><strong>Scrapped posts for {{ keyword }} </strong></h1></p>
+<a href= {{ bart }} ><button type="submit" class="button">Bart summary</button></a>
+<a href= {{ pegasus }} ><button type="submit" class="button">Pegasus summary</button></a>
+
+
+<ol>
+{% for post in post_list %} 
+	<li><b> <h3> {{ post['title'] }} </h3> </b></li>
+	<p>Link : <a href= {{ post['url'] }} target="blank">{{ post['url'] }}</a></p>  
+	<p> {{ post['body'] }} </p>
+{% endfor %} 
+</ol>
+
+</body>
+</html>
