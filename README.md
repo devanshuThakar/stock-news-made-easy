@@ -1,5 +1,5 @@
 # Stock News Made Easy (NLP - Project) 
-This repository contains the project of Natural Language Processing (NLP) course at IIT Gandhinagar offered by Prof. Mayank Singh during Fall semester 2021-22. In this project an application to scrape stock related posts in real time and generate their summaries was developed.
+This repository contains the project of Natural Language Processing (NLP) course at IIT Gandhinagar offered by Prof. Mayank Singh during Fall semester 2021-22. In this project an application to scrape stock related posts in real time and generate their summaries was developed. Stock market related posts from the subreddit r/wallstreetbets are scrapped.
 
 <b> Our Work </b>
 * Manual summaries were curated for 400 posts from r/wallstreetbets subreddit. 
